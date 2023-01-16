@@ -1,3 +1,4 @@
+/* header inizio */
 header{
     background: #4EA0FF url(../img/pattern.png) repeat-x;
     background-size:35%;
@@ -5,28 +6,28 @@ header{
     height: 100px;
     position: relative;
 }
-
 header img{
     height: 50%;
     position: absolute;
     bottom: 10px;
     left:10px;
 }
+/* header fine */
 
+/*sez titolo e autore inizio*/
 .intestazione div{
     color: #808080;
-
 }
-
 #autore{
     color: #2BADE6;
     text-decoration: none;
 }
-
 .intestazione .data{
     font-size: 12px;
 }
+/*sez titolo e autore fine*/
 
+/* sez foto */
 .foto{
     margin: 20px 0;
 }
@@ -34,12 +35,19 @@ header img{
     font-size: 12px;
 }
 
+/*stile lista */
+.lista{
+    padding-left:10px;
+}
+
+/* stile tabella inizio*/
 table{
     margin: 0;
     text-align: left;
     border-collapse: collapse;
 }
 
+/* ridimensionamento prime due colonne tabella */
 .prima-colonna,.seconda-colonna{
     width: 20%;
 }
@@ -48,18 +56,29 @@ thead{
     background-color: #20A9E5;
     color: white;
 }
-
+/* aggiunta stesso colore alle righe dispari */
 .riga-dispari{
     background-color: #B1E5F2;
 }
+/* stile tabella fine */
 
+/* stile footer inizio */
 #testo-footer{
+    font-weight: bold;
     color:#808080;
 }
 footer div{
+    position: relative;
     margin-bottom: 10px;
 }
-footer span{
+footer div>span{
+    font-weight: bold;
     position:absolute;
+    top:5px;
+    left:5px;
     color: white;
 }
+footer img{
+    width: 20%;
+}
+/* stile footer fine */
