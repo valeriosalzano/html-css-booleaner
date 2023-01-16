@@ -37,6 +37,7 @@ header img{
 table{
     margin: 0;
     text-align: left;
+    border-collapse: collapse;
 }
 
 .prima-colonna,.seconda-colonna{
