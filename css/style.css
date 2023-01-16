@@ -5,20 +5,44 @@
 
 header{
     background: #4EA0FF url(../img/pattern.png) repeat-x;
-    background-size:37%;
-    background-position-x: 105px;
-    height: 145px;
+    background-size:35%;
+    background-position-x: 10%;
+    height: 100px;
     position: relative;
 }
 
 main{
-    margin: 0 10px;
+    margin: 10px;
 }
 
 header img{
     height: 50%;
     position: absolute;
-    bottom:10px;
+    bottom: 10px;
     left:10px;
 }
 
+#titolo{
+    margin-top: 20px;
+}
+
+.intestazione div{
+    color: #808080;
+
+}
+
+#autore{
+    color: #2BADE6;
+    text-decoration: none;
+}
+
+.intestazione .data{
+    font-size: 12px;
+}
+
+.foto{
+    margin: 20px 0;
+}
+.foto .crediti{
+    font-size: 12px;
+}
