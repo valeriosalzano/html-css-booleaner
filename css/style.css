@@ -1,84 +1,103 @@
-/* header inizio */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
 header{
     background: #4EA0FF url(../img/pattern.png) repeat-x;
     background-size:35%;
     background-position-x: 10%;
     height: 100px;
-    position: relative;
 }
-header img{
-    height: 50%;
-    position: absolute;
-    bottom: 10px;
-    left:10px;
-}
-/* header fine */
 
-/*sez titolo e autore inizio*/
-.intestazione div{
+#logo{
+    height: 50%;
+    margin: 40px 0px 10px 10px;
+}
+
+.article-container{
+    margin: 10px;
+}
+/*heading and author section */
+#title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.heading-section div{
     color: #808080;
 }
-#autore{
+#author{
     color: #2BADE6;
     text-decoration: none;
 }
-.intestazione .data{
+#published-date{
     font-size: 12px;
 }
-/*sez titolo e autore fine*/
 
-/* sez foto */
-.foto{
+/* photo section */
+.photo{
     margin: 20px 0;
 }
-.foto .crediti{
+.photo .caption{
     font-size: 12px;
 }
 
-/*stile lista */
-.lista{
-    padding-left:10px;
+/* text 1, text 2*/
+p{
+    margin: 20px 0;;
 }
 
-/* stile tabella inizio*/
+/*list*/
+.list{
+    margin: 20px 0;
+    padding-left:15px;
+}
+
+/*table*/
 table{
-    margin: 0;
+    margin: 20px 0;
     text-align: left;
     border-collapse: collapse;
 }
 
-/* ridimensionamento prime due colonne tabella */
-.prima-colonna,.seconda-colonna{
-    width: 20%;
+
+.col-3{/* column 3 resizing */
+    width: 50%;
 }
 
-thead{
+.table-head{
     background-color: #20A9E5;
     color: white;
 }
-/* aggiunta stesso colore alle righe dispari */
-.riga-dispari{
+
+.odd-row{/*color odd rows */
     background-color: #B1E5F2;
 }
-/* stile tabella fine */
 
-/* stile footer inizio */
-#testo-footer{
+/* footer */
+#adv-title{
     font-weight: bold;
     color:#808080;
+    margin-bottom:15px;
 }
-footer div{
-    position: relative;
+.adv{
+    padding-top: 1px;
     margin-bottom: 10px;
 }
-footer div>span{
+.adv .text{
+    padding: 10px;
     font-weight: bold;
-    position:absolute;
-    top:5px;
-    left:5px;
     color: white;
 }
-footer img{
-    width: 20%;
+#monitor-img{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
 }
-/* stile footer fine */
+#graph-img{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}

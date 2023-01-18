@@ -1,115 +1,104 @@
-/* dimensionamento larghezza pagina */
 body{
-    width: 1303px;
     margin: 0;
+    padding: 0;
 }
-
-/* header inizio */
+/* header*/
 header{
-    position: relative;
     background: #4EA0FF url(../img/pattern.png) repeat-x;
-    background-size:30% ;
-    /* background-position-x: 70px; */
+    background-size:35%;
+    background-position-x: 10%;
     height: 100px;
-    position: relative;
 }
-header img{
+
+#logo{
     height: 50%;
-    position: absolute;
-    bottom: 10px;
-    left:10%;
-}
-/* header fine */
-
-/* margine main */
-main{
-    width: 80%;
-    margin: auto;
+    margin: 40px 0px 10px 10px;
 }
 
-/*sez titolo e autore inizio*/
-.intestazione h1{
-    font-size: 38px;
+.article-container{
+    width: 70%;
+    margin: 10px auto 0;
+}
+/*heading and author section */
+#title{
+    font-size: 30px;
     margin-bottom: 10px;
 }
-.intestazione div{
+.heading-section div{
     color: #808080;
 }
-#autore{
+#author{
     color: #2BADE6;
     text-decoration: none;
 }
-.intestazione .data{
-    font-size: 12px;
-}
-/*sez titolo e autore fine*/
-
-/* sez foto */
-.foto{
-    margin: 32px 0;
-}
-.foto .crediti{
+#published-date{
     font-size: 12px;
 }
 
-/* stile paragrafo */
+/* photo section */
+.photo{
+    margin: 20px 0;
+}
+.photo .caption{
+    font-size: 12px;
+}
+
+/* text 1, text 2*/
 p{
-    margin: 32px 0;
+    margin: 20px 0;;
 }
 
-/*stile lista */
-.lista{
-    padding-left:10px;
-    margin:32px 0;
+/*list*/
+.list{
+    margin: 20px 0;
+    padding-left:15px;
 }
 
-/* stile tabella inizio*/
+/*table*/
 table{
-    margin: 32px 0;
+    margin: 20px 0;
     text-align: left;
     border-collapse: collapse;
 }
 
-/* ridimensionamento prime due colonne tabella */
-tr>th:first-child,tr>th:nth-child(2){
-    width:20%;
-}
-tr>td:first-child,tr>td:nth-child(2){
-    width:20%;
+
+.col-3{/* column 3 resizing */
+    width: 50%;
 }
 
-thead{
+.table-head{
     background-color: #20A9E5;
     color: white;
 }
 
-/* aggiunta stesso colore alle righe dispari */
-tbody tr:nth-of-type(odd){
+.odd-row{/*color odd rows */
     background-color: #B1E5F2;
 }
-/* stile tabella fine */
 
-/* stile footer inizio */
-footer{
-    width: 80%;
-    margin: auto;
-}
-#testo-footer{
+/* footer */
+#adv-title{
     font-weight: bold;
     color:#808080;
+    margin-bottom:15px;
 }
-footer div{
-    position: relative;
+.adv{
+    padding-top: 1px;
     margin-bottom: 10px;
 }
-footer div>span{
+.adv .text{
+    padding: 10px;
     font-weight: bold;
-    position:absolute;
-    top:5px;
-    left:5px;
     color: white;
 }
-footer img{
-    width: 20%;
+#monitor-img{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
 }
-/* stile footer fine */
+#graph-img{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
